@@ -1,16 +1,12 @@
-<% require themedCSS(productcategory) %>
-<%-- unfortunately above doesn't work in SS3: --%>
-<link rel="stylesheet" type="text/css" href="/themes/bootstrap_shop/css/productcategory.css" />
 
 <div class="page-header">
-	<h1 class="pageTitle">$Title</h1>
-	$Breadcrumbs
+	<h1>$Title</h1>
 </div>
 <div class="row">
 	<div id="Sidebar" class="span2">
 		<% include ProductMenu %>
 	</div>
-	<div id="ProductGroup" class="typography span8">
+	<div id="ProductGroup" class="typography span7">
 		$Content
 		<% if Products %>
 			<div id="Products" class="category">
