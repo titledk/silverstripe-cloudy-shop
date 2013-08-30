@@ -1,7 +1,7 @@
-<% require themedCSS(product) %>
-<%-- unfortunately above doesn't work in SS3: --%>
-<link rel="stylesheet" type="text/css" href="/themes/bootstrap_shop/css/product.css" />
 
+<div class="page-header">
+	<h1>$Title.RAW</h1>
+</div>
 
 <div class="row">
 	<div id="Sidebar" class="span2">
@@ -9,12 +9,7 @@
 			<% include ProductMenu %>
 		<% end_with %>
 	</div>
-	<div id="Product" class="typography span8">
-		<div class="row">
-			<div id="Breadcrumbs" class="span8">
-				$Breadcrumbs
-			</div>
-		</div>
+	<div id="Product" class="typography span7">
 		<div class="row">
 			<div class="productDetails span3">
 				<% if Image.ContentImage %>
@@ -24,10 +19,7 @@
 				<% end_if %>
 			</div>
 			<% if Content %>
-				<div class="typography span5">
-					<div class="page-header">
-						<h1 class="pageTitle">$Title</h1>
-					</div>
+				<div class="typography span4">
 					<% if InternalItemID %><p><% _t("CODE","Product Code") %>: {$InternalItemID}</p><% end_if %>
 					<% if Model %><p><% _t("MODEL","Model") %>: $Model.XML</p><% end_if %>
 					<% if Size %><p><% _t("SIZE","Size") %>: $Size.XML</p><% end_if %>
