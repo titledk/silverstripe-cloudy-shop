@@ -1,5 +1,5 @@
 {
-	"name": "titledk/bootstrap-shop",
+	"name": "titledk/cloudy-shop",
 	"description": "Shop sub theme for titledk Cloudy (using Bootstrap)",
 	"type": "silverstripe-theme",
 	"require": {
