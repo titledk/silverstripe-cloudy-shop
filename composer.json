@@ -1,6 +1,6 @@
 {
-	"name": "burnbright/bootstrap-shop",
-	"description": "Shop sub theme for Silverstripe Bootstrap",
+	"name": "titledk/bootstrap-shop",
+	"description": "Shop sub theme for titledk Cloudy (using Bootstrap)",
 	"type": "silverstripe-theme",
 	"require": {
 		"composer/installers": "*",
@@ -8,6 +8,6 @@
 		"silverstripe/framework": ">=3.0"
 	},
 	"extra": {
-		"installer-name": "bootstrap_shop"
+		"installer-name": "cloudy_shop"
 	}	
 }
